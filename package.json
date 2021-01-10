@@ -1,0 +1,24 @@
+{
+  "name": "practica-estilos-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "purgecss --css dist/css/custom.css -con pages/*.html -o css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Despise/practica-bootstrap5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Despise/practica-bootstrap5/issues"
+  },
+  "homepage": "https://github.com/Despise/practica-bootstrap5#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1",
+    "purgecss": "^3.1.3"
+  }
+}
